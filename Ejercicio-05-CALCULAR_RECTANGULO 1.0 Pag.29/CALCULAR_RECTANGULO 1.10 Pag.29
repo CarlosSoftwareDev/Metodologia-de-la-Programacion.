@@ -1,0 +1,21 @@
+Algoritmo CALCULAR_RECTANGULO
+	
+	// Ejemplo 1.10 - Página 29
+    // Calcula el perímetro y la superficie de un rectángulo.
+	
+    Definir BASE, ALTURA Como Real
+    Definir PERIMETRO, SUPERFICIE Como Real
+	
+    Escribir "Ingrese la base del rectángulo:"
+    Leer BASE
+	
+    Escribir "Ingrese la altura del rectángulo:"
+    Leer ALTURA
+	
+    PERIMETRO <- 2 * (BASE + ALTURA)
+    SUPERFICIE <- BASE * ALTURA
+	
+    Escribir "Perímetro: ", PERIMETRO
+    Escribir "Superficie: ", SUPERFICIE
+
+FinAlgoritmo
