@@ -1,0 +1,32 @@
+Algoritmo CALCULAR_PROMEDIO
+		
+		// Ejemplo 1.8 - Página 27
+		// Calcula el promedio de cinco calificaciones de un alumno.
+		
+		Definir MAT Como Entero
+		Definir CAL1, CAL2, CAL3, CAL4, CAL5, PROMEDIO Como Real
+		
+		Escribir "Ingrese la matrícula del alumno:"
+		Leer MAT
+		
+		Escribir "Ingrese la calificación 1:"
+		Leer CAL1
+		
+		Escribir "Ingrese la calificación 2:"
+		Leer CAL2
+		
+		Escribir "Ingrese la calificación 3:"
+		Leer CAL3
+		
+		Escribir "Ingrese la calificación 4:"
+		Leer CAL4
+		
+		Escribir "Ingrese la calificación 5:"
+		Leer CAL5
+		
+		PROMEDIO <- (CAL1 + CAL2 + CAL3 + CAL4 + CAL5) / 5
+		
+		Escribir "Matrícula: ", MAT
+		Escribir "Promedio: ", PROMEDIO
+		
+FinAlgoritmo
