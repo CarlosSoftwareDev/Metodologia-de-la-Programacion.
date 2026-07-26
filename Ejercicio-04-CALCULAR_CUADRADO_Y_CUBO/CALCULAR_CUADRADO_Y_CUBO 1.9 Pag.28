@@ -1,0 +1,18 @@
+Algoritmo CALCULAR_CUADRADO_Y_CUBO
+		
+		// Ejemplo 1.9 - Página 24
+		// Calcula e imprime el cuadrado y el cubo de un número entero positivo.
+		
+		Definir NUM Como Entero
+		Definir CUADRADO, CUBO Como Entero
+		
+		Escribir "Ingrese un número entero positivo:"
+		Leer NUM
+		
+		CUADRADO <- NUM^2
+		CUBO <- NUM^3
+		
+		Escribir "El cuadrado de ", NUM, " es: ", CUADRADO
+		Escribir "El cubo de ", NUM, " es: ", CUBO
+		
+FinAlgoritmo
